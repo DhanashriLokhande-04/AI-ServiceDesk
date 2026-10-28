@@ -1,0 +1,33 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Java / Spring Boot
+**/target/
+*.class
+
+# React / Node.js
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local AI models
+OllamaModels/
+models/
+*.gguf
